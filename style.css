@@ -34,7 +34,7 @@
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(94, 218, 240);
     color: #fff;
     padding: 10px;
 }
@@ -66,5 +66,64 @@ nav a:hover {
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+section#about-us {
+    background-color: rgb(94, 218, 240);
+    text-align: center;
+    padding: 2em;
+}
+
+section#about-us img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 2em 0;
+}
+
+section#contact-us {
+    background-color: rgb(94, 218, 240);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#contact-us form {
+    width: 100%;
+    max-width: 500px;
+    padding: 1em;
+    /* background-color: #f5f5f5; */
+    border-radius: 0.5em;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 2em;
+}
+
+section#contact-us form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+section#contact-us form input[type="text"],
+section#contact-us form input[type="email"],
+section#contact-us form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 1em;
+}
+
+section#contact-us .contact-info {
+    width: 100%;
+    max-width: 500px;
+    padding: 1em;
+    /* background-color: #f5f5f5; */
+    border-radius: 0.5em;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+section#us {
+    background-color: rgb(94, 218, 240);
 }
 
